@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+div{
+    margin: 100px;
+    position: relative;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 75px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+
+.hover-text{
+    position: absolute;
+    inset: 0;
+    /* width: 0%; */
+    color: aqua;
+    overflow: hidden;
+    border-right: 6px solid aqua;
+    transition: 1s ease-in-out;
+}
+div:hover .hover-text{
+    width: 100%;
+    filter: drop-shadow(0 0 40px aqua);
+}

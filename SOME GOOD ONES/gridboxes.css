@@ -1,0 +1,224 @@
+#container {
+  /* border: 2px solid red; */
+  margin: auto;
+  padding: 10px;
+  width: 850px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-areas:
+    "one two two three"
+    "one four five three"
+    "one seven eight eight";
+  gap: 10px;
+  box-shadow: 10px 10px 20px grey;
+  background-color: rgba(220, 217, 217, 0.836);
+}
+.grid-box {
+  /* border: 0.5px solid black; */
+  border-radius: 10px;
+}
+.quicker {
+  color: blueviolet;
+}
+.small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 10px;
+  gap: 1rem;
+  /* background-color: white; */
+  width: 200px;
+  border-radius: 20px;
+}
+.gram {
+  width: 20px;
+  height: 20px;
+  /* margin: auto; */
+  border-radius: 10px;
+  /* align-content: center; */
+  background-color: rgb(255, 255, 255);
+}
+.twitter {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.man {
+  /* margin: auto; */
+  padding-left: 10px;
+  width: 200px;
+  font-family: "pristina";
+  color: rgb(255, 255, 255);
+}
+#div1 {
+  grid-area: one;
+  display: grid;
+  grid-template-areas:
+    "div11"
+    "div12";
+  /* background-color: aqua; */
+  border: none;
+  grid-template-rows: 250px;
+  gap: 10px;
+}
+#div11 {
+  padding-left: 15px;
+  grid-area: div11;
+  background-color: rgba(244, 227, 205, 0.587);
+  text-align: center;
+  /* font-size: 1.2rem; */
+}
+#div11 p {
+  /* padding: 10px; */
+  width: 100px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-family: "constantia";
+}
+#div11 button {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(232, 148, 46, 0.342);
+  color: purple;
+  font-family: "poppins";
+  border: none;
+  border-radius: 20px;
+}
+
+#div2 {
+  grid-area: two;
+  font-family: "poppins";
+  display: grid;
+  grid-template-columns: auto;
+  background-color: rgba(120, 0, 225, 0.662);
+  color: aliceblue;
+  /* flex-direction: column; */
+  gap: 5px 10px;
+}
+.star {
+  margin: 0px;
+  padding-top: 0px;
+  text-align: center;
+  color: rgb(255, 170, 0);
+}
+#div2 p {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  width: 200px;
+  font-family: "papyrus";
+}
+
+#div3 {
+  grid-area: three;
+  /* background-color: violet; */
+  font-family: "ink free";
+  padding-left: 15px;
+  background-color: rgb(77, 8, 141);
+  color: aliceblue;
+}
+.text {
+  width: 250px;
+  padding-top: 5px;
+  /* padding-bottom: 5px; */
+  /* margin-top: 20px; */
+  line-height: 1.5rem;
+  color: aliceblue;
+}
+.box {
+  /* border: 0.5px solid black; */
+  border-radius: 10px;
+  background-color: rgb(140, 86, 191);
+  height: 9rem;
+  width: 150px;
+}
+.no3 {
+  width: 100px;
+}
+#div4 {
+  grid-area: four;
+  background-color: rgb(240, 194, 110);
+  /* border: none;
+    margin: none; */
+}
+#div4 p {
+  font-family: "poppins";
+  /* font-size: 20px; */
+}
+
+#div5 {
+  grid-area: five;
+  background-color: rgb(255, 255, 255);
+}
+#div5 p {
+  width: 100px;
+  line-height: 1.5rem;
+  font-family: "monotype corsiva";
+  padding-left: 10px;
+}
+#div12 {
+  padding-left: 10px;
+  grid-area: div12;
+  text-align: center;
+  background-color: rgba(219, 177, 158, 0.689);
+}
+#div12 p {
+  width: 100px;
+  font-size: 1.4rem;
+  font-family: "baskerville old face";
+}
+
+#div7 {
+  padding-left: 10px;
+  padding-top: 5px;
+  grid-area: seven;
+  font-family: "poppins";
+  background-color: white;
+}
+.span2 {
+  /* font-family: 'poppins'; */
+  font-size: 2rem;
+  color: rgb(237, 156, 6);
+}
+.span3 {
+  font-size: 12px;
+}
+#div8 {
+  grid-area: eight;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(120, 0, 225, 0.662);
+  /* border: none;
+    margin: none; */
+}
+.contain {
+  /* margin-left: 0px; */
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: rebeccapurple;
+  height: 5rem;
+  width: 200px;
+}
+.text2 {
+  width: 150px;
+  padding-left: 10px;
+  text-align: right;
+  margin-right: 0px;
+  font-size: 1.1rem;
+  font-family: "segoe script";
+  color: aliceblue;
+}
+/* #div8 p{
+  padding-right: 10px;
+  text-align: right;
+  justify-content: right;
+  width: 150px;
+} */

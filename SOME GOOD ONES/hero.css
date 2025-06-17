@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  color: white;
+  background-color: black;
+}
+section {
+  padding-top: 25%;
+  margin: 40px;
+}
+.box {
+  background-color: #a0a0a0;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.navbar {
+  text-align: center;
+  list-style-type: none;
+}
+a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.button1 {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a0a0a0;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  position: relative;
+  margin-left: 45%;
+}
+.button2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a0a0a0;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  position: relative;
+  margin-left: 45%;
+}
+.container {
+  width: 100px;
+  height: 100px;
+  color: #a0a0a0;
+  background-color: #a0a0a0;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+tr {
+  display: flex;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  align-content: center;
+}
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  align-content: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  align-content: center;
+}
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+div p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+input {
+  width: 150px;
+  height: 25px;
+}
+.sub {
+  width: 75px;
+  height: 25px;
+  background-color: #a0a0a0;
+  border: none;
+  border-radius: 10px;
+}
+footer h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+.icons {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+hr {
+  height: 0.5px;
+  color: #a0a0a0;
+}
+.t-p {
+  padding-left: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer a{
+  color: white;
+}
+span{
+  color: white;
+}
+footer {
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #2b2b2b;
+  color: beige;
+}
